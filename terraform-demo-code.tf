@@ -13,7 +13,7 @@ provider "openstack" {
 variable "flavor_name" {
   description = "Flavor name for compue server"
   type = string
-  default = "c1.c4r4"
+  default = "c1.c1r1"
 }
 
 variable "keyname" {
